@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Weather App</title>
+    <link rel="stylesheet" href="ty.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="card">
+        <div class="search">
+            <input type="text" placeholder="enter a city name" spellcheck="false">
+            <button></button>
+        </div>
+        <div class="weather">
+            <div class="weather-icon"></div>
+            <h1 id="temp">22°c</h1>
+            <h2 id="city">tanger</h2>
+            <div class="details">
+                <div class="col">
+                    <div class="icon humidity-icon"></div>
+                    <p class="humidity">50%</p>
+                    <p>humidity</p>    
+                </div>
+                <div class="col">
+                    <div class="icon wind-icon"></div>
+                    <p class="wind">25 km/h</p>
+                    <p>wind speed</p>    
+                </div>
+                <div class="col">
+                    <div class="icon pressure-icon"></div>
+                    <p class="pressure">1013 hPa</p>
+                    <p>pressure</p>    
+                </div>
+                <div class="col">
+                    <div class="icon visibility-icon"></div>
+                    <p class="visibility">10 km</p>
+                    <p>visibility</p>    
+                </div>
+                <div class="col">
+                    <div class="icon uv-icon"></div>
+                    <p class="uv-index">5</p>
+                    <p>uv index</p>    
+                </div>
+                <div class="col">
+                    <div class="icon feels-like-icon"></div>
+                    <p class="feels-like">25°C</p>
+                    <p>feels like</p>    
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="main.js" defer></script>
+</body>
+</html>
